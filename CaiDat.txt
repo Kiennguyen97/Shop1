@@ -1,0 +1,12 @@
+1.vào xampp config apache vào php.ini thêm vào 2 dòng cuối : 
+extension=php_sqlsrv_73_nts_x64.dll
+extension=php_pdo_sqlsrv_73_ts_x64.dll
+2.
+ vào thư mục xampp/php/ext copy 2 file trong thư mục ext vào
+3. 
+cài đặt msodbcsql và vc_redistx64
+4.
+import database shopping.bacpac vào SQLserver 2017
+// sử dụng admin:
+					domain/admin/login
+// file báo cáo tổng: trong thư mục final					

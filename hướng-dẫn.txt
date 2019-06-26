@@ -1,0 +1,15 @@
+- Giải nén file shopping.zip.
+- Copy các file trong thư mục Code sang thư mục trên Host.
+- Import dữ liệu file shopping.sql
+- Sửa File .env sửa cấu hình
+1. Link trang chủ của web (thư mục đặt code chính)
+APP_URL=http://localhost/shopping
+2. Cấu hình lại kết nối cơ sở dữ liệu
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=shopping
+DB_USERNAME=root
+DB_PASSWORD=
+- Đăng nhập trang quản trị:
+Truy cập vào đường dẫn http://DomainTrangWeb/admin/login
